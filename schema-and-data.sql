@@ -260,15 +260,6 @@ INSERT INTO COURSE VALUES
 (2, 'CSC10008', 3, 'E.102', N'Thứ hai', '9:30 - 11:30', 60),
 (2, 'CSC10008', 2, 'E.304', N'Thứ bảy', '7:30 - 9:30', 120)
 
---('CSC10008', N'Mạng máy tính', 4),
---('CSC10009', N'Hệ thống máy tính', 2),
---('MTH00003', N'Vi tích phân 1B', 4),
---('BAA00007', N'Phương pháp luận sáng tạo', 2),
---('CSC10006', N'Cơ sở dữ liệu', 4),
---('BAA00003', N'Tư tưởng Hồ Chí Minh', 2),
---('BAA00103', N'Chủ nghĩa xã hội khoa học', 2),
---('CSC10004', N'Cấu trúc dữ liệu và giải thuật', 4)
-
 CREATE TABLE REGISTER (
 	STUDENT_ID INT,
 	COURSE_ID INT,
