@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+    <persistence-unit name="default">
+        <class>models.Account</class>
+        <class>models.Student</class>
+        <class>models.Admin</class>
+        <class>models.Subject</class>
+        <class>models.CurrentSemester</class>
+        <class>models.Semester</class>
+        <class>models.Clazz</class>
+        <class>models.Study</class>
+        <class>models.Class1</class>
+        <class>models.RegisterTime</class>
+        <class>models.Course</class>
+        <class>models.Teacher</class>
+        <class>models.Register</class>
+
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:sqlserver://localhost:1433;databaseName=QLHP_JAVA;encrypt=true;trustServerCertificate=true"/>
+            <property name="hibernate.connection.driver_class" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+            <property name="hibernate.connection.username" value="sa"/>
+            <property name="hibernate.show_sql" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>
