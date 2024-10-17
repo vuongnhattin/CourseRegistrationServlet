@@ -7,6 +7,7 @@ Comming soon...
 - Backend được viết bằng **Java**, sử dụng **Servlet** và **JSP** (JavaServer Pages).
 - Ứng dụng kết nối với database sử dụng **JPA** (Java Persistence API).
 - Frontend sử dụng **HTML, Javascript** thuần, và **Boostrap** cho việc trang trí.
+- Sử dụng **Tag Library** để tạo các component có thể tái sử dụng được.
 ## 4. Chức năng
 ![alt text](https://github.com/vuongnhattin/CourseRegistrationServlet/blob/master/readme-images/Screenshot%202024-10-17%20145243.png)
 ![alt text](https://github.com/vuongnhattin/CourseRegistrationServlet/blob/master/readme-images/Screenshot%202024-10-17%20145249.png)
